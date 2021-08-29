@@ -3,15 +3,15 @@
 	
 */
 
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
 
 
 ::selection{color: #CDDC39;}
 
 body{
     background: white;
-    font-family: 'Droid Arabic Kufi';
-    font-weight: 400;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
     color: #505050;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
@@ -50,14 +50,14 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
     margin-top: 0px;
-    font-family: 'Droid Arabic Kufi';
+    font-family: 'Cairo', sans-serif;
 }
 .colored-text{
     color: #03a9f4;
 }
 
 .alo{
-  font-family: 'Droid Arabic Kufi';
+  font-family: 'Cairo', sans-serif;
   display: inline-block;
   text-transform: uppercase;
   margin-right: 5px;
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
     margin-right: auto;
 }
 .subtitle-caption{
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 20px;
     font-size: 14px;
     margin-bottom: 0;
@@ -119,12 +119,12 @@ h1,h2,h3,h4,h5,h6{
     nav.before-color.navbar-default .navbar-brand{
     color:#fff;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 600;
 }
     nav.after-color.navbar-default .navbar-brand{
     color:#000;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 600;
 }
     nav.before-color .navbar-nav>li>a{
         color:#fff;
@@ -166,7 +166,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Droid Arabic Kufi';
+    font-family: 'Cairo', sans-serif;
     letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -184,7 +184,7 @@ h1,h2,h3,h4,h5,h6{
 .navbar-default .navbar-brand{
     color:#000;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .navbar-default .navbar-nav>li:hover .dropdown-menu{
     display: block;
@@ -198,11 +198,11 @@ BUTTONS
 
 .btn{
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 14px;
     letter-spacing: 2px;
     border-radius: 25px;
-    font-family: 'Droid Arabic Kufi';
+    font-family: 'Cairo', sans-serif;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -261,7 +261,7 @@ SLIDER REVOLUTION CSS
     text-transform: uppercase;
     font-size:70px;
     letter-spacing:2px;
-    font-family: 'Droid Arabic Kufi';
+    font-family: 'Cairo', sans-serif;
 }
 .slider-title span{
     font-weight: 700;
@@ -270,7 +270,7 @@ SLIDER REVOLUTION CSS
     color:#f8f8f8;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Droid Arabic Kufi';
+    font-family: 'Cairo', sans-serif;
 }
 .slider-button a.btn-white{
     color:#000;
@@ -355,7 +355,7 @@ TEAM CSS
 .team-desc h4{
     margin-bottom: 0px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 15px;
 
 }
@@ -615,7 +615,7 @@ TEAM CSS
 }
 .news-inner .date{
     color: #03a9f4;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
 }
 .news-inner .title{
