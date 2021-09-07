@@ -29,7 +29,7 @@
 	src:url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
 		url('fonts/flexslider-icon.woff') format('woff'),
 		url('fonts/flexslider-icon.ttf') format('truetype'),
-		url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+		url('https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
