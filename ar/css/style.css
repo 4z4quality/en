@@ -9,7 +9,8 @@
 
 body{
     background: white;
-    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
     font-weight: 600;
     color: #505050;
     -webkit-font-smoothing: antialiased;
@@ -49,14 +50,16 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
     margin-top: 0px;
-    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
 }
 .colored-text{
     color: #03a9f4;
 }
 
 .alo{
-  font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
   display: inline-block;
   text-transform: uppercase;
   margin-right: 5px;
@@ -176,7 +179,8 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
     letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -212,7 +216,8 @@ BUTTONS
     font-size: 14px;
     letter-spacing: 2px;
     border-radius: 25px;
-    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -271,7 +276,8 @@ SLIDER REVOLUTION CSS
     text-transform: uppercase;
     font-size:70px;
     letter-spacing:2px;
-    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
 }
 .slider-title span{
     font-weight: 700;
@@ -280,7 +286,8 @@ SLIDER REVOLUTION CSS
     color:#f8f8f8;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif';
+    font-family: 'Al-Jazeera-Arabic-Bold', 'sans-serif'; src:
+    url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot"); src: url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.woff") format("woff"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/c42eb56b5b7e3a1238d61dca44501a07.svg#Al-Jazeera-Arabic-Bold") format("svg");
 }
 .slider-button a.btn-white{
     color:#000;
