@@ -2,16 +2,14 @@
 	قور زد للجودة - د. طارق الشريف
 	
 */
-@import url('https://www.fontstatic.com/f=jazeera, jazeera-light');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
 
 
 ::selection{color: #CDDC39;}
 
 body{
     background: white;
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
     font-weight: 300;
     color: #505050;
     -webkit-font-smoothing: antialiased;
@@ -51,18 +49,14 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
     margin-top: 0px;
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
 }
 .colored-text{
     color: #03a9f4;
 }
 
 .alo{
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
   display: inline-block;
   text-transform: uppercase;
   margin-right: 5px;
@@ -182,9 +176,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
     letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -220,9 +212,7 @@ BUTTONS
     font-size: 14px;
     letter-spacing: 2px;
     border-radius: 25px;
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -281,9 +271,7 @@ SLIDER REVOLUTION CSS
     text-transform: uppercase;
     font-size:70px;
     letter-spacing:2px;
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
 }
 .slider-title span{
     font-weight: 700;
@@ -292,9 +280,7 @@ SLIDER REVOLUTION CSS
     color:#f8f8f8;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'jazeera', 'jazeera-light', 'sans-serif';
-    src: url('https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix');
-    src: local('الجزيرة'), local('jazeera'),url('https://www.fontstatic.com/fonts/jazeera/jazeera.woff') format('woff');
+    font-family: 'Almarai', 'sans-serif';
 }
 .slider-button a.btn-white{
     color:#000;
