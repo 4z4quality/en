@@ -2,14 +2,13 @@
 	قور زد للجودة - د. طارق الشريف
 	
 */
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&display=swap');
-
+@import url(https://db.onlinewebfonts.com/c/6184b9bbcb2982ca518dc0c37b9d3199?family=HelveticaNeueLT+Arabic+55+Roman);
 
 ::selection{color: #CDDC39;}
 
 body{
     background: white;
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
     font-weight: 300;
     color: #505050;
     -webkit-font-smoothing: antialiased;
@@ -49,14 +48,14 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
     margin-top: 0px;
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
 }
 .colored-text{
     color: #03a9f4;
 }
 
 .alo{
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
   display: inline-block;
   text-transform: uppercase;
   margin-right: 5px;
@@ -176,7 +175,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
     letter-spacing: 1px;
 }
 .navbar-default .navbar-nav>li>a:hover{
@@ -212,7 +211,7 @@ BUTTONS
     font-size: 14px;
     letter-spacing: 2px;
     border-radius: 25px;
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     transition: all .3s ease;
@@ -271,7 +270,7 @@ SLIDER REVOLUTION CSS
     text-transform: uppercase;
     font-size:70px;
     letter-spacing:2px;
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
 }
 .slider-title span{
     font-weight: 700;
@@ -280,7 +279,7 @@ SLIDER REVOLUTION CSS
     color:#f8f8f8;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Almarai', 'sans-serif';
+    font-family: 'HelveticaNeueLT Arabic 55 Roman';
 }
 .slider-button a.btn-white{
     color:#000;
