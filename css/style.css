@@ -948,3 +948,8 @@ cta
     font-size: 0;
     cursor: pointer;
 }
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background-color: #2B8694;
+
+}
