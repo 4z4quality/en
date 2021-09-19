@@ -760,7 +760,7 @@
 				currentGalleryPage = 0;
 				toInject = "";
 				for (var i=0; i < pp_images.length; i++) {
-					if(!pp_images[i].match(/\b(jpg|jpeg|png|gif)\b/gi)){
+					if(!pp_images[i].match(/\b(jpg|jpeg|png|webp)\b/gi)){
 						classname = 'default';
 						img_src = '';
 					}else{
