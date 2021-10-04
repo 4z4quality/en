@@ -1,7 +1,3 @@
-/* 
-	4Z for Quality | ISO made Easy
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic');
 
 ::selection{
@@ -17,7 +13,6 @@ body{
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
 }
-/***basics****/
 a,a:hover, a:focus, i{
     text-decoration: none;
     outline: 0;
@@ -49,7 +44,7 @@ p{
     margin-bottom: 30px;
 }
 h1,h2,h3,h4,h5,h6{
-    margin-top: 0px;
+    margin-top: 0;
     font-family: 'Open Sans', sans-serif;
 }
 .colored-text{
@@ -71,9 +66,9 @@ h1,h2,h3,h4,h5,h6{
 .section-title h1{
     text-transform: uppercase;
     font-weight: 300;
-    margin: 0px;
+    margin: 0;
     font-size: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     letter-spacing: 1px;
 }
 .border-line{
@@ -113,7 +108,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 2px;
 }
 .no-padding{
-    padding: 0px;
+    padding: 0;
 }
 /****navbar css****/
 @media(min-width:768px){
@@ -123,9 +118,9 @@ h1,h2,h3,h4,h5,h6{
     }
     nav.after-color{
         background-color: rgba(255,255,255,.95);
-        padding: 0px 0;
-        box-shadow: 0px 1px 5px rgba(0,0,0,0.302);
-        -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.302);
+        padding: 0 0;
+        box-shadow: 0 1px 5px rgba(0,0,0,0.302);
+        -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.302);
     }
     nav.before-color.navbar-default .navbar-brand{
     color:#fff;
@@ -159,8 +154,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar-default {
     background-color: rgba(255,255,255,.95);
-    border:0px;
-    margin: 0px;
+    border:0;
+    margin: 0;
     width:100%;
     left: 0;
     right: 0;
@@ -223,7 +218,7 @@ BUTTONS
 }
 .btn-white{
     color:#fff;
-    padding: 0px;
+    padding: 0;
     border: 1px solid #fff;
     padding: 10px 20px;
     background-color: transparent;
@@ -260,12 +255,6 @@ BUTTONS
     border-radius: 30px;
     -webkit-border-radius: 30px;
 }
-/***********
-
-SLIDER REVOLUTION CSS
-
-**************/
-
 .slider-title{
     color:#fff;
     font-weight: 100;
@@ -291,15 +280,10 @@ SLIDER REVOLUTION CSS
     color:#fff;
     background-color: transparent;
 }
-/********
-
-services icons css
-
-********/
 .feature-icon-wrap {
     position: relative;
     padding-bottom: 40px;
-    margin: 0px;
+    margin: 0;
 }
 .feature-icon-wrap .left-side-icon{
     float: left;
@@ -341,11 +325,6 @@ services icons css
     -webkit-border-radius: 50%;
     border: 1px solid  #03a9f4;
 }
-/************
-
-TEAM CSS
-
-*************/
 .team{
     padding-top: 50px;
     padding-bottom:20px;
@@ -354,7 +333,7 @@ TEAM CSS
 
 .team-box{
     text-align: center;
-    padding: 0px;
+    padding: 0;
     background-color: #f5f5f5;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -364,7 +343,7 @@ TEAM CSS
     width:100%;
 }
 .team-desc h4{
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 15px;
@@ -399,9 +378,6 @@ TEAM CSS
     color: #03a9f4
 
 }
-
-
-/******fun facts*****/
 .funfacts{
     background: url(../images/bg-2.webp);
     background-position: 50% 0;
@@ -468,7 +444,7 @@ TEAM CSS
     content: '\f3d6';
 }
 .testimonials .flexslider{
-    margin:0px;
+    margin:0;
 }
 .testimonials .flex-direction-nav a {
     text-decoration: none;
@@ -498,19 +474,15 @@ TEAM CSS
     color:#fff;
 }
 .slide-items h5{
-    margin-bottom: 0px;
+    margin-bottom: 0;
     color: #03a9f4;
 }
 .testimonials .flexslider{
     background: rgba(0,0,0,0);
-    border: 0px;
+    border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
-
-
-/****work****/
-
 #work{
     background-color: #f7f7f8;
 }
@@ -610,11 +582,8 @@ TEAM CSS
     text-transform: uppercase;
     letter-spacing: .1em
 }
-
-
-/*****news****/
 .news-wrapper{
-    padding: 0px;
+    padding: 0;
 }
 .news-wrapper .news-inner{
     display: block;
@@ -622,7 +591,7 @@ TEAM CSS
     position: relative;
 }
 .news-wrapper .row{
-    margin: 0px;
+    margin: 0;
 }
 .news-inner .date{
     color: #03a9f4;
@@ -640,7 +609,7 @@ TEAM CSS
 }
 .news-inner p{
     margin-top: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 .news-inner:hover .title{
     letter-spacing: 3px;
@@ -649,7 +618,7 @@ TEAM CSS
       position: absolute;
   width: 100%;
   height: 100%;
-  top: 0px;
+  top: 0;
   background: rgba(255,255,255,0.8);
   z-index: 1;
   left: 0;
@@ -658,23 +627,6 @@ TEAM CSS
     z-index: 2;
     position: relative;
 }
-.post-option{
-    margin-bottom: 0px;
-    margin-top: 15px;
-}
-.post-option a{
-    margin-right: 5px;
-    display: inline-block;
-    color:#999;
-}
-.post-option a:hover{
-    color: #03a9f4;
-}
-/****
-
-cta
-
-******/
 .cta{
     padding-bottom: 40px;
 }
@@ -691,9 +643,8 @@ cta
 .cta-bg h1{
     color:#fff;
 }
-/***contact****/
 #contact{
-      background: url(../images/bg-1.webp);
+      background: url(http://www.the4z.com/images/bg-1.webp);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -720,18 +671,18 @@ cta
 .contact-form {
     background-color: rgba(0,0,0,0.3);
     padding: 30px;
-    margin: 0px 0;
+    margin: 0 0;
 }
 .contact-form .form-control{
     min-height: 45px;
-    border: 0px;
+    border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
     border: 1px solid #fff;
-    border-radius: 0px;
+    border-radius: 0;
     background-color: transparent;
     color:#fff;
-    -webkit-border-radius: 0px;
+    -webkit-border-radius: 0;
 }
 .contact-form h3{
     margin-bottom: 20px;
@@ -740,7 +691,7 @@ cta
     text-transform: uppercase;
 }
 .help-block{
-    margin: 0px;
+    margin: 0;
 }
 .help-block ul{
     list-style: none;
@@ -749,7 +700,7 @@ cta
 }
 .help-block ul li{
     color:#fff;
-    padding: 0px 10px;
+    padding: 0 10px;
     background-color:  #03a9f4;
     font-size: 12px;
 }
@@ -778,7 +729,6 @@ cta
    font-size: 12px;
 }
 
-/****pricing****/
 .price-box{
       background: #f9f9f9;
 }
@@ -797,9 +747,9 @@ cta
     padding: 15px 10px;
 }
 .header .price h2 {
-  color: #4D4D4D;
+  color: #4d4d4d;
     margin-bottom: 3px;
-  font-weight: bold;
+  font-weight: 700;
 }
 .header .price span{
     font-size: 13px;
@@ -815,14 +765,14 @@ cta
     color:#fff;
     background-color:  #03a9f4;
 }
-/******inner pages******/
+
 .page-title{
-    background-color: #2B8694;
+    background-color: #2b8694;
     padding-top: 250px;
 }
 .page-title h3{
       color: #fff;
-  margin: 0px;
+  margin: 0;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -834,122 +784,4 @@ cta
     color:#999;
     font-size: 14px;
     
-}
-.pager li>a, .pager li>span{
-    color: #03a9f4;
-}
-.floating-wpp {
-    position: fixed;
-    bottom: 15px;
-    left: 15px;
-    font-size: 14px;
-    transition: bottom 0.2s;
-}
-
-.floating-wpp .floating-wpp-button {
-    position: relative;
-    border-radius: 50%;
-    box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4);
-    transition: box-shadow 0.2s;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.floating-wpp .floating-wpp-button img,
-.floating-wpp .floating-wpp-button svg {
-    position: absolute;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-}
-
-.floating-wpp:hover {
-    bottom: 17px;
-}
-
-.floating-wpp:hover .floating-wpp-button {
-    box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.4);
-}
-
-.floating-wpp .floating-wpp-popup {
-    /*border: 2px solid white;*/
-    border-radius: 6px;
-    background-color: #E5DDD5;
-    position: absolute;
-    overflow: hidden;
-    padding: 0;
-    box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.25);
-    width: 0px;
-    height: 0px;
-    bottom: 0;
-    opacity: 0;
-    transition: bottom 0.1s ease-out, opacity 0.2s ease-out;
-    transform-origin: bottom;
-}
-
-.floating-wpp .floating-wpp-popup.active {
-    padding: 0 12px 12px 12px;
-    width: 260px;
-    height: auto;
-    bottom: 82px;
-    opacity: 1;
-}
-
-.floating-wpp .floating-wpp-popup .floating-wpp-message {
-    background-color: white;
-    padding: 8px;
-    border-radius: 0px 5px 5px 5px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-    opacity: 0;
-    transition: opacity 0.2s;
-}
-
-.floating-wpp .floating-wpp-popup.active .floating-wpp-message {
-    opacity: 1;
-    transition-delay: 0.2s;
-}
-
-.floating-wpp .floating-wpp-popup .floating-wpp-head {
-    text-align: right;
-    color: white;
-    margin: 0 -15px 10px -15px;
-    padding: 6px 12px;
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
-
-.floating-wpp .floating-wpp-input-message {
-    background-color: white;
-    margin: 10px -15px -15px -15px;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
-}
-
-.floating-wpp .floating-wpp-input-message textarea {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: none;
-    padding: 8px;
-    margin: 10px 0;
-    width: 100%;
-    max-width: 100%;
-    font-family: inherit;
-    font-size: inherit;
-    resize: none;
-}
-
-.floating-wpp .floating-wpp-btn-send {
-    margin-left: 12px;
-    font-size: 0;
-    cursor: pointer;
-}
-
-audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
-    background-color: #2B8694;
-
 }
