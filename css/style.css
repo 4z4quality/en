@@ -13,14 +13,15 @@ body{
     -webkit-text-size-adjust: 100%;
     font-size: 14px;
 }
-a,a:focus, a:hover, i{
+/***basics****/
+a,a:hover, a:focus, i{
     text-decoration: none;
     outline: 0;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
 p{
     font-weight: 300;
@@ -33,6 +34,10 @@ p{
     padding-top: 100px;
     padding-bottom: 40px
 }
+.divided30{
+    width:100%;
+    height: 30px;
+}
 .padding-bottom30{
     padding-bottom: 30px;
 }
@@ -40,12 +45,13 @@ p{
     margin-bottom: 30px;
 }
 h1,h2,h3,h4,h5,h6{
-    margin-top: 0;
+    margin-top: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 .colored-text{
     color: #03a9f4;
 }
+
 .alo{
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
@@ -61,9 +67,9 @@ h1,h2,h3,h4,h5,h6{
 .section-title h1{
     text-transform: uppercase;
     font-weight: 300;
-    margin: 0;
+    margin: 0px;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     letter-spacing: 1px;
 }
 .border-line{
@@ -85,6 +91,7 @@ h1,h2,h3,h4,h5,h6{
     background-color:  #03a9f4;
     margin-left: auto;
     margin-right: auto;
+
 }
 .subtitle-caption{
     font-weight: 400;
@@ -102,18 +109,19 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 2px;
 }
 .no-padding{
-    padding: 0;
+    padding: 0px;
 }
-@media (min-width:768px){
+/****navbar css****/
+@media(min-width:768px){
     nav.before-color{
         background-color: rgba(255,255,255,0);
         padding: 15px 0;
     }
     nav.after-color{
         background-color: rgba(255,255,255,.95);
-        padding: 0 0;
-        box-shadow: 0 1px 5px rgba(0,0,0,0.302);
-        -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.302);
+        padding: 0px 0;
+        box-shadow: 0px 1px 5px rgba(0,0,0,0.302);
+        -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.302);
     }
     nav.before-color.navbar-default .navbar-brand{
     color:#fff;
@@ -125,42 +133,42 @@ h1,h2,h3,h4,h5,h6{
     font-size: 35px;
     font-weight: 400;
 }
-    a {
+    nav.before-color .navbar-nav>li>a{
         color:#fff;
     }
     
-    a {
+    nav.after-color .navbar-nav>li>a{
         color:#333;
     }
-    a {
+    .nav>li>a {
         position: relative;
         display: block;
         padding: 15px 11px;
 
     }
-    li {
+    nav.before-color .nav>li{
         border-left: 1px solid transparent;    
     }
-    li {
+    nav.after-color .nav>li{
         border-left: 1px solid rgba(0,0,0,0.1);    
     }
 }
-.navbar-default{
+.navbar-default {
     background-color: rgba(255,255,255,.95);
-    border:0;
-    margin: 0;
+    border:0px;
+    margin: 0px;
     width:100%;
     left: 0;
     right: 0;
     padding: 5px 0;
     z-index: 9999;
-    transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
-a {
+.navbar-default .navbar-nav>li>a {
     color: #333;
     font-weight: 700;
     font-size: 12px;
@@ -168,25 +176,33 @@ a {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
 }
-a:hover {
-    color: #f40303;
+.navbar-default .navbar-nav>li>a:hover{
+        color: #f40303;
     }
-a:hover {
-    color:#03a9f4;
-    background-color:transparent;
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color:  #03a9f4;
+    background-color: transparent;
 }
-a:hover {
-    color:#03a9f4;
-    background-color:transparent;
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color:  #03a9f4;
+  background-color: transparent;
 }
+
 .navbar-default .navbar-brand{
     color:#000;
     font-size: 35px;
     font-weight: 400;
 }
-li:hover .dropdown-menu{
+.navbar-default .navbar-nav>li:hover .dropdown-menu{
     display: block;
 }
+/*********
+
+BUTTONS
+
+*********/
+
+
 .btn{
     text-transform: uppercase;
     font-weight: 400;
@@ -203,7 +219,7 @@ li:hover .dropdown-menu{
 }
 .btn-white{
     color:#fff;
-    padding: 0;
+    padding: 0px;
     border: 1px solid #fff;
     padding: 10px 20px;
     background-color: transparent;
@@ -240,6 +256,12 @@ li:hover .dropdown-menu{
     border-radius: 30px;
     -webkit-border-radius: 30px;
 }
+/***********
+
+SLIDER REVOLUTION CSS
+
+**************/
+
 .slider-title{
     color:#fff;
     font-weight: 100;
@@ -265,10 +287,15 @@ li:hover .dropdown-menu{
     color:#fff;
     background-color: transparent;
 }
+/********
+
+services icons css
+
+********/
 .feature-icon-wrap {
     position: relative;
     padding-bottom: 40px;
-    margin: 0;
+    margin: 0px;
 }
 .feature-icon-wrap .left-side-icon{
     float: left;
@@ -280,7 +307,7 @@ li:hover .dropdown-menu{
 }
 .back-icon {
     z-index: -1;
-    color: #f0f0f0;
+    color: #F0F0F0;
     position: absolute;
     padding-left: 40px;
     left: 0;
@@ -310,6 +337,11 @@ li:hover .dropdown-menu{
     -webkit-border-radius: 50%;
     border: 1px solid  #03a9f4;
 }
+/************
+
+TEAM CSS
+
+*************/
 .team{
     padding-top: 50px;
     padding-bottom:20px;
@@ -318,7 +350,7 @@ li:hover .dropdown-menu{
 
 .team-box{
     text-align: center;
-    padding: 0;
+    padding: 0px;
     background-color: #f5f5f5;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -328,7 +360,7 @@ li:hover .dropdown-menu{
     width:100%;
 }
 .team-desc h4{
-    margin-bottom: 0;
+    margin-bottom: 0px;
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 15px;
@@ -363,8 +395,11 @@ li:hover .dropdown-menu{
     color: #03a9f4
 
 }
+
+
+/******fun facts*****/
 .funfacts{
-    background: url(http://www.the4z.com/images/bg-2.webp);
+    background: url(../images/bg-2.webp);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -393,7 +428,7 @@ li:hover .dropdown-menu{
     font-weight: 300;
 }
 .testimonials{
-    background: url(http://www.the4z.com/images/bg-3.webp);
+    background: url(../images/bg-3.webp);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -419,25 +454,59 @@ li:hover .dropdown-menu{
     -webkit-border-radius: 50%;
     margin-bottom: 20px;
 }
+.testimonials .flex-direction-nav a:before {
+    font-family: "Ionicons";
+    font-size: 40px;
+    display: inline-block;
+    content: '\f3d5';
+}
+.testimonials .flex-direction-nav a.flex-next:before {
+    content: '\f3d6';
+}
 .testimonials .flexslider{
-    margin:0;
+    margin:0px;
+}
+.testimonials .flex-direction-nav a {
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: -20px 0 0;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    overflow: hidden;
+    opacity: 0;
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+    text-shadow: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    text-align: center;
 }
 .slide-items{
     padding: 50px 40px;
+
 }
 .slide-items p{
     color:#fff;
 }
 .slide-items h5{
-    margin-bottom: 0;
+    margin-bottom: 0px;
     color: #03a9f4;
 }
 .testimonials .flexslider{
     background: rgba(0,0,0,0);
-    border: 0;
+    border: 0px;
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+
+
+/****work****/
+
 #work{
     background-color: #f7f7f8;
 }
@@ -537,8 +606,11 @@ li:hover .dropdown-menu{
     text-transform: uppercase;
     letter-spacing: .1em
 }
+
+
+/*****news****/
 .news-wrapper{
-    padding: 0;
+    padding: 0px;
 }
 .news-wrapper .news-inner{
     display: block;
@@ -546,7 +618,7 @@ li:hover .dropdown-menu{
     position: relative;
 }
 .news-wrapper .row{
-    margin: 0;
+    margin: 0px;
 }
 .news-inner .date{
     color: #03a9f4;
@@ -564,7 +636,7 @@ li:hover .dropdown-menu{
 }
 .news-inner p{
     margin-top: 15px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 .news-inner:hover .title{
     letter-spacing: 3px;
@@ -573,7 +645,7 @@ li:hover .dropdown-menu{
       position: absolute;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 0px;
   background: rgba(255,255,255,0.8);
   z-index: 1;
   left: 0;
@@ -582,6 +654,23 @@ li:hover .dropdown-menu{
     z-index: 2;
     position: relative;
 }
+.post-option{
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.post-option a{
+    margin-right: 5px;
+    display: inline-block;
+    color:#999;
+}
+.post-option a:hover{
+    color: #03a9f4;
+}
+/****
+
+cta
+
+******/
 .cta{
     padding-bottom: 40px;
 }
@@ -598,8 +687,9 @@ li:hover .dropdown-menu{
 .cta-bg h1{
     color:#fff;
 }
+/***contact****/
 #contact{
-      background: url(http://www.the4z.com/images/bg-1.webp);
+      background: url(../images/bg-1.webp);
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -626,18 +716,18 @@ li:hover .dropdown-menu{
 .contact-form {
     background-color: rgba(0,0,0,0.3);
     padding: 30px;
-    margin: 0 0;
+    margin: 0px 0;
 }
 .contact-form .form-control{
     min-height: 45px;
-    border: 0;
+    border: 0px;
     box-shadow: none;
     -webkit-box-shadow: none;
     border: 1px solid #fff;
-    border-radius: 0;
+    border-radius: 0px;
     background-color: transparent;
     color:#fff;
-    -webkit-border-radius: 0;
+    -webkit-border-radius: 0px;
 }
 .contact-form h3{
     margin-bottom: 20px;
@@ -646,7 +736,7 @@ li:hover .dropdown-menu{
     text-transform: uppercase;
 }
 .help-block{
-    margin: 0;
+    margin: 0px;
 }
 .help-block ul{
     list-style: none;
@@ -655,7 +745,7 @@ li:hover .dropdown-menu{
 }
 .help-block ul li{
     color:#fff;
-    padding: 0 10px;
+    padding: 0px 10px;
     background-color:  #03a9f4;
     font-size: 12px;
 }
@@ -684,6 +774,7 @@ li:hover .dropdown-menu{
    font-size: 12px;
 }
 
+/****pricing****/
 .price-box{
       background: #f9f9f9;
 }
@@ -702,9 +793,9 @@ li:hover .dropdown-menu{
     padding: 15px 10px;
 }
 .header .price h2 {
-  color: #4d4d4d;
+  color: #4D4D4D;
     margin-bottom: 3px;
-  font-weight: 700;
+  font-weight: bold;
 }
 .header .price span{
     font-size: 13px;
@@ -720,14 +811,14 @@ li:hover .dropdown-menu{
     color:#fff;
     background-color:  #03a9f4;
 }
-
+/******inner pages******/
 .page-title{
-    background-color: #2b8694;
+    background-color: #2B8694;
     padding-top: 250px;
 }
 .page-title h3{
       color: #fff;
-  margin: 0;
+  margin: 0px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -739,4 +830,122 @@ li:hover .dropdown-menu{
     color:#999;
     font-size: 14px;
     
+}
+.pager li>a, .pager li>span{
+    color: #03a9f4;
+}
+.floating-wpp {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    font-size: 14px;
+    transition: bottom 0.2s;
+}
+
+.floating-wpp .floating-wpp-button {
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4);
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.floating-wpp .floating-wpp-button img,
+.floating-wpp .floating-wpp-button svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.floating-wpp:hover {
+    bottom: 17px;
+}
+
+.floating-wpp:hover .floating-wpp-button {
+    box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.4);
+}
+
+.floating-wpp .floating-wpp-popup {
+    /*border: 2px solid white;*/
+    border-radius: 6px;
+    background-color: #e5ddd5;
+    position: absolute;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.25);
+    width: 0px;
+    height: 0px;
+    bottom: 0;
+    opacity: 0;
+    transition: bottom 0.1s ease-out, opacity 0.2s ease-out;
+    transform-origin: bottom;
+}
+
+.floating-wpp .floating-wpp-popup.active {
+    padding: 0 12px 12px 12px;
+    width: 260px;
+    height: auto;
+    bottom: 82px;
+    opacity: 1;
+}
+
+.floating-wpp .floating-wpp-popup .floating-wpp-message {
+    background-color: white;
+    padding: 8px;
+    border-radius: 0px 5px 5px 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.floating-wpp .floating-wpp-popup.active .floating-wpp-message {
+    opacity: 1;
+    transition-delay: 0.2s;
+}
+
+.floating-wpp .floating-wpp-popup .floating-wpp-head {
+    text-align: right;
+    color: white;
+    margin: 0 -15px 10px -15px;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.floating-wpp .floating-wpp-input-message {
+    background-color: white;
+    margin: 10px -15px -15px -15px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+.floating-wpp .floating-wpp-input-message textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+}
+
+.floating-wpp .floating-wpp-btn-send {
+    margin-left: 12px;
+    font-size: 0;
+    cursor: pointer;
+}
+
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+    background-color: #2b8694;
+
 }
