@@ -1,50 +1,55 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic);
+/* 
+	4Z for Quality | ISO made Easy
+*/
 
-::selection {
-    color:#cddc39;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,400italic');
+
+::selection{
+    color: #CDDC39;
 }
 
-body {
-    background:#fff;
-    font-family:'Open Sans',sans-serif;
-    font-weight:400;
-    color:#505050;
-    -webkit-font-smoothing:antialiased;
-    -webkit-text-size-adjust:100%;
-    font-size:14px;
+body{
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #505050;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
 }
-
-a,a:focus,a:hover,i {
-    text-decoration:none;
-    outline:0;
-    transition:all .3s ease-in-out;
-    -webkit-transition:all .3s ease-in-out;
-    -moz-transition:all .3s ease-in-out;
-    -o-transition:all .3s ease-in-out;
-    -ms-transition:all .3s ease-in-out;
+/***basics****/
+a,a:hover, a:focus, i{
+    text-decoration: none;
+    outline: 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
 }
-
-p {
-    font-weight:300;
-    font-size:13px;
-    letter-spacing:1px;color:#444;
-    line-height:24px;
+p{
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color:#444444;
+    line-height: 24px;
 }
-
 .section-padding{
     padding-top: 100px;
     padding-bottom: 40px
 }
-
+.divided30{
+    width:100%;
+    height: 30px;
+}
 .padding-bottom30{
     padding-bottom: 30px;
 }
 .margin-bottom30{
     margin-bottom: 30px;
 }
-
 h1,h2,h3,h4,h5,h6{
-    margin-top: 0;
+    margin-top: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 .colored-text{
@@ -66,9 +71,9 @@ h1,h2,h3,h4,h5,h6{
 .section-title h1{
     text-transform: uppercase;
     font-weight: 300;
-    margin: 0;
+    margin: 0px;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     letter-spacing: 1px;
 }
 .border-line{
