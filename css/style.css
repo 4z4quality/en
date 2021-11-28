@@ -11,4 +11,21 @@
   #mobile-nav ul .menu-has-children i.fa-chevron-up {
     color: #2dc997;
   }
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
   
