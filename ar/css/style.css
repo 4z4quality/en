@@ -848,3 +848,19 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: #2B8694;
 
 }
+table {
+    font-family: font-family: 'Al-Jazeera-Arabic', 'serif';
+    src: url(fonts/Al-Jazeera-Arabic-Bold.tff);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: right;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
