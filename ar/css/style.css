@@ -857,7 +857,7 @@ table {
   
   td, th {
     border: 1px solid #000000;
-    text-align: right;
+    text-align: justify;
     padding: 8px;
   }
   
