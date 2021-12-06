@@ -823,9 +823,6 @@ table {
     text-align: right;
     padding: 8px;
   }
-  td {
-    text-align: right;
-  }
   tr:nth-child(even) {
     background-color: #dddddd;
   }
