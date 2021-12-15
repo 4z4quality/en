@@ -1,14 +1,4 @@
-/* 
-	Bonativo by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-
  $(window).scroll(function(){      
-        /* -------------------
-        Header Animation
-        ---------------------*/
         if ($(this).scrollTop() > 50){  
             $('.before-color').addClass("after-color");
         }
@@ -16,13 +6,8 @@
             $('.before-color').removeClass("after-color");
         }
     });
-
-//full width revolution
 var revapi;
-
-
 jQuery(document).ready(function() {
-
     revapi = jQuery('.tp-banner').revolution(
             {
                 delay: 6000,
@@ -33,9 +18,7 @@ jQuery(document).ready(function() {
                 forceFullWidth: "on",
                 navigationStyle: "preview4"
             });
-
-});	//ready
-
+});
   $(window).load(function() {
     $('.testislider').flexslider({
         direction: "horizantol",
@@ -44,8 +27,6 @@ jQuery(document).ready(function() {
         controlNav: false
     });
   });
-
-/**smooth scroll on anchor tag****/
 $(function() {
     $('.scroll-to a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -60,19 +41,11 @@ $(function() {
         }
     });
 });
-
-
-/* -------------------
- Parallax Sections
- ---------------------*/
 if (!Modernizr.touch) {
     $('.parallax-1').parallax("50%", 0.5);
     $('.parallax-2').parallax("50%", 0.5);
     $('.parallax-3').parallax("50%", 0.5);
 }
-/*----------------
- Auto Close Navbar
- -----------------*/
 function close_toggle() {
     if ($(window).width() <= 992) {
         $('.navbar-collapse a').on('click', function() {
@@ -95,10 +68,6 @@ $(function() {
         event.preventDefault();
     });
 });
-
-
-
-/**prettyPhoto**/
 $(window).load(function(){
  "use strict";
     $("a[data-gal^='prettyPhoto']").prettyPhoto();
