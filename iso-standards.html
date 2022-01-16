@@ -104,13 +104,54 @@
                 <span class="border-line2"></span><br>
             </div>
         </div><!--page title-->
+        <br>
+        <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="makeFullscreen()">Fullscreen</button>
+            <button onclick="makeHD()">HD</button>
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeNormal()">Normal</button>
+            <button onclick="makeSmall()">Small</button>
+            <br><br>
+            <video id="video1" width="420" autoplay="autoplay">
+              <source src="videos/isoen.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+        </div>
+        <script  type="text/javascript">
+        var myVideo = document.getElementById("video1");
+        function playPause() { 
+            if (myVideo.paused) 
+              myVideo.play(); 
+            else 
+              myVideo.pause(); 
+          }
+          function makeFullscreen() {
+            var myVideo = document.getElementById("video1");       
+            if (myVideo.mozRequestFullScreen) {
+                myVideo.mozRequestFullScreen();
+            } else if (myVideo.webkitRequestFullScreen) {
+                myVideo.webkitRequestFullScreen();
+        } 
+        }
+          function makeHD() { 
+              myVideo.width = 720; 
+          }
+          function makeBig() { 
+              myVideo.width = 560; 
+          }
+          function makeNormal() { 
+              myVideo.width = 420; 
+          }
+          function makeSmall() { 
+              myVideo.width = 320; 
+          } 
+          </script>
         <div align="justify" class="container section-padding">
             <div class="margin-bottom30">
-                <img src="images/isologo.webp" alt="ISO Logo" style="display: block; margin-left: auto; margin-right: auto; width: auto;max-width: 100%; height: 100%;">
-                <div class="margin-bottom30">
                 <span><font size="+1"; style="line-height:30px">
-                <br><br>Welcome to the <span class="colored-text">4Z-Pedia</span>. Many of us have certainly heard of the term ISO before. Many of us may also know that it is associated with standards & specifications, with the aim of ensuring best practices in service delivery & product manufacturing. Let's learn more about the history of ISO, who issues standards, what benefits we get when applying those standards.<br>
-                <span class="border-line2"></span><br>
+                Welcome to the <span class="colored-text">4Z-Pedia</span>. Many of us have certainly heard of the term ISO before. Many of us may also know that it is associated with standards & specifications, with the aim of ensuring best practices in service delivery & product manufacturing. Let's learn more about the history of ISO, who issues standards, what benefits we get when applying those standards.<br>
+                <br><span class="border-line2"></span><br>
                 <br><h2>What is ISO?</h2>
                     <ul>
                         <br><li><span class="colored-text">ISO</span>, "International Organization for Standardization", is an independent, non-governmental organization, founded on 23 February 1947.</li>
@@ -171,6 +212,7 @@
                             </ol>
                         </ul>
                 <br><span class="border-line2"></span><br>
+                <img src="images/isologo.webp" alt="ISO Logo" style="display: block; margin-left: auto; margin-right: auto; width: auto;max-width: 100%; height: 100%;"><br>
                 <div style="text-align:center"><span class="colored-text"><font size="+2"><i>“The ISO is an independent, non-governmental international organization with a membership of 164 national standards bodies. Through its members, it brings together experts to share knowledge and develop voluntary, noncompulsory, consensus-based, market relevant International Standards that support innovation and provide solutions to global challenges…”</span></div></font></i>
                 <br><span class="border-line2"></span><br>
                 <br><h2>Examples of standards in everyday life:</h2>                
@@ -244,9 +286,10 @@
                     <li><a title="Follow us on Linkedin" href="https://www.linkedin.com/company/4z-for-quality/"><i class="ion-social-linkedin-outline"></i></a></li>
                     <li><a title="Follow us on Twitter" href="https://twitter.com/4z4Quality"><i class="icon icon-social-twitter"></i></a></li>
                     <li><a title="Follow us on Facebook" href="https://www.facebook.com/4Z-for-Quality-101939698877487"><i class="icon icon-social-facebook"></i></a></li>
-                    <li><a title="4Z official website" href="https://www.the4z.com"><i class="icon icon-social-dribbble"></i></a></li>
+                    <li><a title="Follow us on Youtube" href="https://www.youtube.com/channel/UCcyVD18GqrnlKNynfqzhw6w"><i class="icon icon-social-youtube"></i></a></li>
+                    <li><a title="4Z official Website" href="https://www.the4z.com"><i class="icon icon-social-dribbble"></i></a></li>
                 </ul>
-                <span class="copyright"; style= "color: white">&copy; Copyright 2021. 4Z for Quality</span>
+                <span class="copyright"; style= "color: white">&copy; Copyright 2022. 4Z for Quality</span>
             </div>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -102,17 +102,60 @@
             </div><!--/.container-fluid -->
         </nav>
         <div class="page-title">
+
             <div class="container text-center">
                 <h1><div style= "color: white">ما هو الأيزو؟ وكيف نستفيد منه؟</h1>
                 <span class="border-line2"></span><br>
             </div>
         </div><!--page title-->
+        <br>
+        <div style="text-align:center"> 
+            <button onclick="makeSmall()">صغيرة</button>
+            <button onclick="makeNormal()">عادية</button>
+            <button onclick="makeBig()">كبيرة</button>
+            <button onclick="makeHD()">بدقة عالية</button>
+            <button onclick="makeFullscreen()">بحجم الشاشة</button>
+            <button onclick="playPause()">إيقاف/تشغيل</button>
+            <br><br>
+            <video id="video1" width="420" autoplay="autoplay">
+              <source src="videos/isoar.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+        </div>
+        <script  type="text/javascript">
+        var myVideo = document.getElementById("video1");
+        function playPause() { 
+            if (myVideo.paused) 
+              myVideo.play(); 
+            else 
+              myVideo.pause(); 
+          }
+          function makeFullscreen() {
+            var myVideo = document.getElementById("video1");       
+            if (myVideo.mozRequestFullScreen) {
+                myVideo.mozRequestFullScreen();
+            } else if (myVideo.webkitRequestFullScreen) {
+                myVideo.webkitRequestFullScreen();
+        } 
+        }
+          function makeHD() { 
+              myVideo.width = 720; 
+          }
+          function makeBig() { 
+              myVideo.width = 560; 
+          }
+          function makeNormal() { 
+              myVideo.width = 420; 
+          }
+          function makeSmall() { 
+              myVideo.width = 320; 
+          } 
+          </script>
         <span><font size="+1"; style="line-height:35px">
         <div align="justify" class="container section-padding" dir="rtl">
             <div class="margin-bottom30">
-                <img src="../images/isologo.webp" alt="لوجو الأيزو" style="display: block; margin-left: auto; margin-right:auto; max-width: 100%; height: auto">
-                <br>مرحبًا بكم في <span class="colored-text">موسوعة فور زد</span> لاستشارات الجودة. الكثير منا سمع بالتأكيد من قبل عن مصطلح الأيزو. وربما يعرف العديد منا أيضًا أنه مرتبط بالمعايير والمواصفات، بهدف ضمان أفضل الممارسات في تقديم الخدمات وتصنيع المنتجات. لنتعرف معًا على المزيد عن تاريخ الأيزو، من يصدر المعايير، وماذا يعود علينا بالنفع عند تطبيق تلك المعايير.<br><br>
-                <span class="border-line2"></span><br>
+                مرحبًا بكم في <span class="colored-text">موسوعة فور زد</span> لاستشارات الجودة. الكثير منا سمع بالتأكيد من قبل عن مصطلح الأيزو. وربما يعرف العديد منا أيضًا أنه مرتبط بالمعايير والمواصفات، بهدف ضمان أفضل الممارسات في تقديم الخدمات وتصنيع المنتجات. لنتعرف معًا على المزيد عن تاريخ الأيزو، من يصدر المعايير، وماذا يعود علينا بالنفع عند تطبيق تلك المعايير.<br>
+                <span class="border-line2"></span>
                 <br><h2>ما هو الأيزو؟</h2>
                     <ul>
                         <br><li><span class="colored-text">الأيزو</span> اختصار للمنظمة الدولية للتوحيد القياسي، وهي منظمة غير حكومية مستقلة، تأسست في 23 فبراير 1947.</li>
@@ -171,6 +214,8 @@
                             </ol>
                         </ul>
                 <br><span class="border-line2"></span>
+                <br>
+                <img src="../images/isologo.webp" alt="لوجو الأيزو" style="display: block; margin-left: auto; margin-right:auto; max-width: 100%; height: auto"><br>
                 <br><h2 style="text-align:center"><span class="colored-text"><font size="+2">’’الأيزو هي منظمة دولية مستقلة غير حكومية، تضم في عضويتها 164 هيئة وطنية للمعايير. من خلال أعضائها، تجمع الخبراء معًا لتبادل المعرفة، وتطوير معايير دولية طوعية، غير ملزمة، قائمة على الإجماع، وذات صلة بالسوق، تدعم الابتكار وتوفر حلولًا للتحديات العالمية ...‘‘</font></span></h2>
                 <br><span class="border-line2"></span>
                 <br><h2>أمثلة على المعايير في الحياة اليومية:</h2>                
@@ -244,9 +289,10 @@
                     <li><a title="تابعنا على الليتكد إن" href="https://www.linkedin.com/company/4z-for-quality/"><i class="ion-social-linkedin-outline"></i></a></li>
                     <li><a title="تابعنا على تويتر" href="https://twitter.com/4z4Quality"><i class="icon icon-social-twitter"></i></a></li>
                     <li><a title="تابعنا على الفيسبوك" href="https://www.facebook.com/4Z-for-Quality-101939698877487"><i class="icon icon-social-facebook"></i></a></li>
+                    <li><a title="تابعنا على اليوتيوب" href="https://www.youtube.com/channel/UCcyVD18GqrnlKNynfqzhw6w"><i class="icon icon-social-youtube"></i></a></li>
                     <li><a title="فور زد الموقع الرسمي" href="https://www.the4z.com"><i class="icon icon-social-dribbble"></i></a></li>
                 </ul>
-                <span class="copyright">&copy; حقوق النشر 2021. شركة فور زد للجودة</span>
+                <span class="copyright">&copy; حقوق النشر 2022. شركة فور زد للجودة</span>
             </div>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
