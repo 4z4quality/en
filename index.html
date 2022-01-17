@@ -134,6 +134,50 @@
                             <br> It Is A Long-Established Fact That "Quality Is The Most Paramount Element For The Business <span class="colored-text">Success</span>."
                             <br><span class="colored-text">4Z for Quality</span> is a creative quality and ISO consultancy agency. We are dedicated to make ISO Standards <span class="colored-text">EASY.</span>
                             <br><span class="border-line"></span>
+                            <br>
+        <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="makeFullscreen()">Fullscreen</button>
+            <button onclick="makeHD()">HD</button>
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeNormal()">Normal</button>
+            <button onclick="makeSmall()">Small</button>
+            <br><br>
+            <video id="video1" width="420">
+              <source src="videos/welcome-en.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+        </div>
+        <script  type="text/javascript">
+        var myVideo = document.getElementById("video1");
+        function playPause() { 
+            if (myVideo.paused) 
+              myVideo.play(); 
+            else 
+              myVideo.pause(); 
+          }
+          function makeFullscreen() {
+            var myVideo = document.getElementById("video1");       
+            if (myVideo.mozRequestFullScreen) {
+                myVideo.mozRequestFullScreen();
+            } else if (myVideo.webkitRequestFullScreen) {
+                myVideo.webkitRequestFullScreen();
+        } 
+        }
+          function makeHD() { 
+              myVideo.width = 720; 
+          }
+          function makeBig() { 
+              myVideo.width = 560; 
+          }
+          function makeNormal() { 
+              myVideo.width = 420; 
+          }
+          function makeSmall() { 
+              myVideo.width = 320; 
+          } 
+          </script>
+          <span class="border-line"></span>
                             <span class="colored-text"><font size="+3"><br><br>MISSION</font></span>
                             <br><br><b><font size="+2"><span class="colored-text">4Z</span></font></b>, because:
                             <br><span class="colored-text"><font size="+2">➀</font size=></span> We <b> <span class="colored-text"><font size="+1">Zoom</font></span></b> in and look closely, to suggest solutions. 
