@@ -1,5 +1,4 @@
 ::selection{color: #CDDC39;}
-
 body{
     background: white;
     font-family: 'Al-Jazeera-Arabic', 'serif';
@@ -378,7 +377,7 @@ h1,h2,h3,h4,h5,h6{
     overflow-y: hidden;
     vertical-align: middle;
     z-index: 1;
-    display: block;
+    display: flex;
     position: relative;
     padding-top: 100px;
     padding-bottom: 70px;
@@ -405,9 +404,9 @@ h1,h2,h3,h4,h5,h6{
     height: auto;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: flex;
     vertical-align: middle;
     z-index: 1;
-    display: block;
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -648,7 +647,7 @@ h1,h2,h3,h4,h5,h6{
     overflow-y: hidden;
     vertical-align: middle;
     z-index: 1;
-    display: block;
+    display: flex;
     position: relative;
 }
 .contact-details i{
@@ -782,7 +781,7 @@ audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
     background-color: #2B8694;
 }
 table {
-    font-family: font-family: 'Al-Jazeera-Arabic', 'serif';
+    font-family: 'Al-Jazeera-Arabic', 'serif';
     src: url(fonts/Al-Jazeera-Arabic-Bold.tff);
     border-collapse: collapse;
     width: 100%;
