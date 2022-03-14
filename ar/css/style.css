@@ -3,7 +3,7 @@ body{
     background: white;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
     font-weight: 600;
-    color: #505050;
+    color: #000066;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     font-size: 16px;
@@ -20,13 +20,14 @@ a,a:hover, a:focus, i{
 p{
     font-weight: 300;
     font-size: 13px;
-    letter-spacing: 1px;
-    color:#444444;
+    color:#000066;
     line-height: 24px;
 }
 .section-padding{
     padding-top: 100px;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    padding-right:10px;
+    padding-left: 20px
 }
 .divided30{
     width:100%;
@@ -43,7 +44,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
 }
 .colored-text{
-    color: #03a9f4;
+    color: #ff8000;
 }
 .alo{
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
@@ -107,20 +108,16 @@ h1,h2,h3,h4,h5,h6{
 @media(min-width:768px){
     nav.before-color{
     background-color: rgba(255,255,255,0);
-    padding: 15px 0;
+    padding: 25px 0;
     }
     nav.after-color{
     background-color: rgba(255,255,255,.95);
     padding: 0px 0;
     box-shadow: 0px 1px 5px rgba(0,0,0,0.302);
-    -webkit-box-shadow: 0px 1px 5px rgba(0,0,0,0.302);
+    -webkit-box-shadow: 0px 1px 6px rgba(0,0,0,0.302);
+    transition:ease-in-out, 0.8s;
     }
     nav.before-color.navbar-default .navbar-brand{
-    color:#000066;
-    font-size: 35px;
-    font-weight: 600;
-}
-    nav.after-color.navbar-default .navbar-brand{
     color:#000066;
     font-size: 35px;
     font-weight: 600;
@@ -135,6 +132,7 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
     display: block;
     padding: 15px 11px;
+    padding-right: 15px;
     }
     nav.before-color .nav>li{
         border-left: 1px solid transparent;    
@@ -242,6 +240,7 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     font-size:70px;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
+    padding: 30px;
 }
 .slider-title span{
     font-weight: 700;
@@ -251,10 +250,13 @@ h1,h2,h3,h4,h5,h6{
     font-size: 30px;
     font-weight: 400;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
+    padding: 30px;
 }
 .slider-button a.btn-white{
     color:#000066;
     background-color: #fff;
+    margin-top: 80px;
+    margin-bottom: 50px
 }
 .slider-button a.btn-white:hover{
     color:#fff;
@@ -386,14 +388,14 @@ h1,h2,h3,h4,h5,h6{
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:local;
     width: 100%;
     height: auto;
     overflow-x: hidden;
     overflow-y: hidden;
     display: flex;
     vertical-align: middle;
-    z-index: 1;
+    z-index: 10000;
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -406,11 +408,11 @@ h1,h2,h3,h4,h5,h6{
     margin-right: auto;
     border-radius: 50%;
     -webkit-border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .testimonials .flex-direction-nav a:before {
-    font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif', 'Ionicons';
-    font-size: 40px;
+    font-family: 'Ionicons';
+    font-size:20px;
     display: inline-block;
     content: '\f3d5';
 }
@@ -418,7 +420,7 @@ h1,h2,h3,h4,h5,h6{
     content: '\f3d6';
 }
 .testimonials .flexslider{
-    margin:0px;
+    margin:30px;
 }
 .testimonials .flex-direction-nav a {
     text-decoration: none;
@@ -426,10 +428,10 @@ h1,h2,h3,h4,h5,h6{
     width: 40px;
     height: 40px;
     line-height: 40px;
-    margin: -20px 0 0;
+    margin: 0;
     position: absolute;
     top: 50%;
-    z-index: 10;
+    z-index: 1000;
     overflow: hidden;
     opacity: 0;
     cursor: pointer;
@@ -441,10 +443,11 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
 }
 .slide-items{
-    padding: 50px 40px;
+    padding: 10px 50px;
 }
 .slide-items p{
     color:#fff;
+    font-size: 15px;
 }
 .slide-items h5{
     margin-bottom: 0px;
@@ -455,6 +458,8 @@ h1,h2,h3,h4,h5,h6{
     border: 0px;
     box-shadow: none;
     -webkit-box-shadow: none;
+    min-width:100%;
+    min-height: fit-content;
 }
 #work{
     background-color: #f7f7f8;
@@ -747,8 +752,13 @@ h1,h2,h3,h4,h5,h6{
 }
 .navbar-brand h3{
     font-weight: 700;
-    font-size: 36px;
-    margin: 0;
+    font-size: 32px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+.navbar-brand img{
+    float:right;
+    margin: 5px;
 }
 .page-title h3{
     color: #fff;
@@ -776,7 +786,7 @@ table {
   }
   td, th {
     border: 1px solid #000000;
-    text-align: right;
+    text-align: center;
     padding: 8px;
   }
   tr:nth-child(even) {

@@ -6,7 +6,7 @@
 			animation_speed: 'fast',
 			ajaxcallback: function() {},
 			slideshow: 5000,
-			autoplay_slideshow: false,
+			autoplay_slideshow: true,
 			opacity: 0.80,
 			show_title: true,
 			allow_resize: true,

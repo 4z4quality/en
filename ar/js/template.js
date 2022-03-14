@@ -43,7 +43,7 @@ $(function() {
 });
 if (!Modernizr.touch) {
     $('.parallax-1').parallax("50%", 0.5);
-    $('.parallax-2').parallax("50%", 0.5);
+    $('.parallax-2').parallax("100%", 0.5);
     $('.parallax-3').parallax("50%", 0.5);
 }
 function close_toggle() {
