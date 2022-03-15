@@ -23,8 +23,8 @@ jQuery(document).ready(function() {
     $('.testislider').flexslider({
         direction: "horizantol",
         animation: "slide",
-        smoothHeight: true,
-        controlNav: false
+        smoothHeight: fetch,
+        controlNav: fetch
     });
   });
 $(function() {
