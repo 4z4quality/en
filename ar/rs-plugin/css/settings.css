@@ -467,7 +467,7 @@ text-shadow:none;
 .tp-caption a {
 color:#ff7302;
 text-shadow:none;
--webkit-transition:all 0.2s ease-out;
+transition:all 0.2s ease-out;
 -moz-transition:all 0.2s ease-out;
 -o-transition:all 0.2s ease-out;
 -ms-transition:all 0.2s ease-out;
@@ -976,11 +976,11 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 	 }
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		.tp-simpleresponsive  .button	{	padding:4px 8px 3px; line-height:25px !important; font-size:11px !important;font-weight:normal;	}
-		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
+		.tp-simpleresponsive  a.button { transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
 	}
     @media only screen and (min-width: 0px) and (max-width: 479px) {
 		.tp-simpleresponsive  .button	{	padding:2px 5px 2px; line-height:20px !important; font-size:10px !important}
-		.tp-simpleresponsive  a.button { -webkit-transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
+		.tp-simpleresponsive  a.button { transition: none; -moz-transition: none; -o-transition: none; -ms-transition: none;	 }
 	}
 .tp-simpleresponsive  .button.green, .tp-simpleresponsive  .button:hover.green,
 .tp-simpleresponsive  .purchase.green, .tp-simpleresponsive  .purchase:hover.green			{ background-color:#21a117; -webkit-box-shadow:  0px 3px 0px 0px #104d0b;        -moz-box-shadow:   0px 3px 0px 0px #104d0b;        box-shadow:   0px 3px 0px 0px #104d0b;  }
@@ -1023,7 +1023,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 		position:absolute;
 		margin-left:auto;
 		margin-right:auto;
-		-moz-user-select: none;
+		user-select: none;
         -khtml-user-select: none;
         -webkit-user-select: none;
         -o-user-select: none;
@@ -1125,14 +1125,14 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-dottedoverlay.threexthreewhite		{	background:url(../assets/gridtile_3x3_white.png)}
 .tpclear		{	clear:both}
 .tp-bullets									{	z-index:1000; position:absolute;
-												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+												filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 												-moz-opacity: 1;
 												-khtml-opacity: 1;
 												opacity: 1;
-												-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;-webkit-transform: translateZ(5px);
+												transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;transform: translateZ(5px);
 											}
 .tp-bullets.hidebullets					{
-												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+												filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 												-moz-opacity: 0;
 												-khtml-opacity: 0;
 												opacity: 0;
@@ -1159,19 +1159,19 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-bullets.simplebullets.round .bullet.selected,
 .tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected		{	background-position:bottom left}
-.tparrows												{	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+.tparrows												{	filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 															-moz-opacity: 1;
 															-khtml-opacity: 1;
 															opacity: 1;
-															-webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
-															-webkit-transform: translateZ(5000px);
-															-webkit-transform-style: flat;
-															-webkit-backface-visibility: hidden;
+															transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
+															transform: translateZ(5000px);
+															transform-style: flat;
+															backface-visibility: hidden;
 															z-index:600;
 															position: relative;
 														}
 .tparrows.hidearrows									{
-															-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+															filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 															-moz-opacity: 0;
 															-khtml-opacity: 0;
 															opacity: 0;
@@ -1208,15 +1208,15 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-bullets.tp-thumbs .tp-mask .tp-thumbcontainer	{	width:5000px; position:absolute}
 .tp-bullets.tp-thumbs .bullet				{   width:100px; height:50px; 			/* THE DIMENSION OF A SINGLE THUMB */
 												cursor:pointer; overflow:hidden;background:none;margin:0;float:right;
-												-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+												filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 												/*filter: alpha(opacity=50);	*/
 												-moz-opacity: 0.5;
 												-khtml-opacity: 0.5;
 												opacity: 0.5;
-												-webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
+												transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; -o-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out;
 											}
 .tp-bullets.tp-thumbs .bullet:hover,
-.tp-bullets.tp-thumbs .bullet.selected		{ 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+.tp-bullets.tp-thumbs .bullet.selected		{ 	filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 												-moz-opacity: 1;
 												-khtml-opacity: 1;
 												opacity: 1;
@@ -1229,7 +1229,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 				.responsive .tparrows	{	display:none}
 	}
  .tp-simpleresponsive img {
-		-moz-user-select: none;
+		user-select: none;
         -khtml-user-select: none;
         -webkit-user-select: none;
         -o-user-select: none;
@@ -1256,7 +1256,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 .tp-caption.slidelink a span	{	background:url(../assets/coloredbg.png) repeat}
 .tparrows .tp-arr-imgholder								{ display: none}
 .tparrows .tp-arr-titleholder							{ display: none}
-.tparrows.preview1 							{	width:100px;height:100px;-webkit-transform-style: preserve-3d; -webkit-perspective: 1000; -moz-perspective: 1000; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden;background: transparent}
+.tparrows.preview1 							{	width:100px;height:100px;transform-style: preserve-3d; perspective: 1000; -moz-perspective: 1000; backface-visibility: hidden; -moz-backface-visibility: hidden;background: transparent}
 .tparrows.preview1:after					{	position:absolute; left:0px;top:0px; font-family: "revicons"; color:#fff; font-size:30px; width:100px;height:100px;text-align: center; background:#fff;background:rgba(0,0,0,0.15);z-index:2;line-height:100px; -webkit-transition: background 0.3s, color 0.3s; -moz-transition: background 0.3s, color 0.3s; transition: background 0.3s, color 0.3s}
 .tp-rightarrow.preview1:after				{	content: '\e825';  }
 .tp-leftarrow.preview1:after				{	content: '\e824';  }
@@ -1443,7 +1443,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 		.tparrows.preview2 .tp-arr-titleholder		{	display:none;visibility:none}
 		.tparrows.preview2:hover					{	width:30px !important; height:30px !important}
     }
-.tparrows.preview3 							{	width:70px; height:70px; background:#fff; background:rgba(255,255,255,1); -webkit-transform-style: flat}
+.tparrows.preview3 							{	width:70px; height:70px; background:#fff; background:rgba(255,255,255,1); transform-style: flat}
 .tparrows.preview3:after					{	position:absolute;  line-height: 70px;text-align: center; font-family: "revicons"; color:#aaa; font-size:30px; top:0px;left:0px;;background:#fff; z-index:100; width:70px;height:70px; -webkit-transition: color 0.3s; -moz-transition: color 0.3s; transition: color 0.3s}
 .tparrows.preview3:hover:after					{	color:#000}
 .tp-rightarrow.preview3:after				{	content: '\e825';  }
@@ -1520,7 +1520,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 		.tparrows.preview3 							{	width:50px; height:50px; line-height:50px;font-size:20px}
 		.tparrows.preview3 .tp-arr-iwrapper			{	min-height:70px}
 	}
-.tparrows.preview4 							{	width:30px; height:110px;  background:transparent;-webkit-transform-style: preserve-3d; -webkit-perspective: 1000; -moz-perspective: 1000}
+.tparrows.preview4 							{	width:30px; height:110px;  background:transparent;transform-style: preserve-3d; perspective: 1000; -moz-perspective: 1000}
 .tparrows.preview4:after					{	position:absolute;  line-height: 110px;text-align: center; font-family: "revicons"; color:#fff; font-size:20px; top:0px;left:0px;z-index:0; width:30px;height:110px; background: #000; background: rgba(0,0,0,0.25);
 												-webkit-transition: all 0.2s ease-in-out;
 											    -moz-transition: all 0.2s ease-in-out;
@@ -1530,7 +1530,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 											}
 .tp-rightarrow.preview4:after				{	content: '\e825';  }
 .tp-leftarrow.preview4:after				{	content: '\e824';  }
-.tparrows.preview4 .tp-arr-allwrapper		{	visibility:hidden;width:180px;position: absolute;z-index: 1;min-height:120px;top:0px;left:-150px; overflow: hidden;-webkit-perspective: 1000px;-webkit-transform-style: flat}
+.tparrows.preview4 .tp-arr-allwrapper		{	visibility:hidden;width:180px;position: absolute;z-index: 1;min-height:120px;top:0px;left:-150px; overflow: hidden;perspective: 1000px;transform-style: flat}
 .tp-leftarrow.preview4 .tp-arr-allwrapper	{	left:0px}
 .tparrows.preview4 .tp-arr-iwrapper			{	position: relative}
 .tparrows.preview4 .tp-arr-imgholder 		{	display:block;background-size:cover; background-position:center center;width:180px;height:110px;
@@ -1791,8 +1791,8 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
   }
 }
 .tp-transparentimg {	content:"url(../assets/transparent.png)"}
-.tp-3d				{	-webkit-transform-style: preserve-3d;
-						 -webkit-transform-origin: 50% 50%;
+.tp-3d				{	transform-style: preserve-3d;
+						 transform-origin: 50% 50%;
 					}
 .tp-caption img {
 background: transparent;
@@ -1814,7 +1814,6 @@ zoom: 1;
   font-family: "revicons";
   font-style: normal;
   font-weight: normal;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
