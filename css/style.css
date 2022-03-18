@@ -10,23 +10,14 @@ body{
     -webkit-text-size-adjust: 100%;
     font-size:16px;
 }
-a,
-a:hover,
-a:focus,
-i {
-    text-decoration: none;
-    outline: 0;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-}
 p {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 16px;
     color: #000066;
     line-height: 24px;
+}
+p a:hover{
+    color: #ff8000;
 }
 .section-padding {
     padding-top: 100px;
