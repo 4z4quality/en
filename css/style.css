@@ -22,8 +22,8 @@ p a:hover{
 .section-padding {
     padding-top: 100px;
     padding-bottom: 40px;
-    padding-right: 10px;
-    padding-left: 20px
+    padding-right: 30px;
+    padding-left: 30px
 }
 .divided30 {
     width: 100%;
@@ -316,6 +316,8 @@ h6 {
 .team {
     padding-top: 50px;
     padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     background-color: #e6e6e6;
 }
 .team-box {
