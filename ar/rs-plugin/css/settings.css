@@ -1,7 +1,7 @@
 .tp-static-layers	{	position:absolute; z-index:505; top:0px;left:0px}
 .tp-hide-revslider,.tp-caption.tp-hidden-caption	{	visibility:hidden !important; display:none !important}
 .tp-caption { z-index:1; white-space:nowrap}
-.tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin-bottom:10px; margin-right:20px !important}
+.tp-caption-demo .tp-caption	{	position:relative !important; display:inline-block; margin:20px !important}
 .tp-caption.whitedivider3px {
 	color: #000000;
 	text-shadow: none;
