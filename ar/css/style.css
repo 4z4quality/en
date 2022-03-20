@@ -404,7 +404,7 @@ h6 {
     background-position: 50% 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     width: 100%;
     height: auto;
     overflow-x: hidden;
@@ -413,8 +413,8 @@ h6 {
     z-index: 1;
     display: inline-block;
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .testimonials .testislider .slide-items img {
     width: 80px;
@@ -430,28 +430,30 @@ h6 {
 .testimonials .flex-direction-nav a:before {
     font-family: "Ionicons";
     font-size: 30px;
-    display: inline-block;
+    display: flex;
     content: '\f3d5';
 }
 .testimonials .flex-direction-nav a.flex-next:before {
     content: '\f3d6';
 }
 .testimonials .flexslider {
-    margin: 0;
+    padding-top:70px;
+    padding-bottom:70px;
+    margin-bottom: 40px;
 }
 .testimonials .flex-direction-nav a {
     text-decoration: none;
     display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin: -20px 0 0;
-    position: absolute;
-    top: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+    position:absolute;
+    top: 80%;
     z-index: 10;
     overflow: hidden;
     opacity: 0;
-    cursor: pointer;
+    cursor:none;
     color: #000066;
     text-shadow: none;
     -webkit-transition: all .3s ease-in-out;
@@ -460,12 +462,13 @@ h6 {
     text-align: center;
 }
 .slide-items {
-    padding: 50px 40px;
+    padding-bottom: 40px;
 }
 .slide-items h5 {
     color: blanchedalmond;
     font-weight: bold;
     text-shadow: #000066 -1px -1px 10px;
+    margin-bottom: 10px;
 }
 .slide-items p {
     margin-bottom: 0;
@@ -473,10 +476,12 @@ h6 {
     font-weight: bold;
 }
 .testimonials .flexslider {
-    background: rgba(0, 0, 0, 0);
+    background: rgba(255, 254, 254, 0.205);
     border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #work {
     background-color: #f7f7f8;
