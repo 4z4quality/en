@@ -101,9 +101,9 @@ h6 {
     margin-right: auto;
 }
 .subtitle-caption {
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 0;
     line-height: 25px;
     text-transform: capitalize;
@@ -589,8 +589,13 @@ h6 {
 }
 .news-inner .date {
     color: #03a9f4;
-    font-weight: 600;
-    font-style: italic;
+    font-weight: 700;
+}
+.author {
+    font-weight: 700;
+}
+.author a{
+    color: #ff8000;
 }
 .news-inner .title {
     color: #777;
