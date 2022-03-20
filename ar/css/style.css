@@ -1,5 +1,5 @@
-::selection {
-    color: #cddc39;
+::selection{
+    color:#cddc39;
 }
 body{
     background: #fff;
@@ -31,8 +31,8 @@ p {
 .section-padding {
     padding-top: 100px;
     padding-bottom: 40px;
-    padding-right: 10px;
-    padding-left: 20px
+    padding-right: 30px;
+    padding-left: 30px
 }
 .divided30 {
     width: 100%;
@@ -324,6 +324,8 @@ h6 {
 .team {
     padding-top: 50px;
     padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     background-color: #e6e6e6;
 }
 .team-box {
@@ -774,6 +776,7 @@ h6 {
 }
 .navbar-brand h3 {
     font-weight: 700;
+    line-height: 30px;
     font-size: 30px;
     margin: 0;
 }

@@ -1805,8 +1805,8 @@ ul ul {
 }
 
 .list-inline {
-    padding-left: 0;
-    margin-left: -5px;
+    padding: 0;
+    margin: 0;
     list-style: none
 }
 
@@ -5339,7 +5339,7 @@ nav.after-color {
 .navbar-brand {
     float: right;
     height: 50px;
-    padding: 10px 10px;
+    padding: 20px 10px;
     font-size: 18px;
     line-height: 20px;
 }
