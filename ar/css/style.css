@@ -10,23 +10,14 @@ body{
     -webkit-text-size-adjust: 100%;
     font-size:16px;
 }
-a,
-a:hover,
-a:focus,
-i {
-    text-decoration: none;
-    outline: 0;
-    transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-}
 p {
     font-weight: 300;
     font-size: 13px;
     color: #000066;
     line-height: 24px;
+}
+p a:hover{
+    color: #ff8000;
 }
 .section-padding {
     padding-top: 100px;
@@ -604,6 +595,7 @@ h6 {
     color: #ff8000;
 }
 .news-inner .title {
+    font-size: 26px;
     color: #777;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -749,7 +741,7 @@ h6 {
     background: #f9f9f9;
     box-shadow: 5px 4px 8px 5px #888888;
 }
-.price-box .header h3 {
+.price-box .header .head {
     padding: 12px 10px;
     margin-bottom: 0;
     position: relative;
@@ -758,6 +750,8 @@ h6 {
     background: #474747;
     color: #fff;
     border-radius: 2px 2px 0 0;
+    font-size: 19px;
+    font-weight: 700;
 }
 .price-box .header .price {
     background: #ebebeb;
@@ -769,7 +763,8 @@ h6 {
     font-weight: 700;
 }
 .header .price span {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 700;
 }
 .price-box ul li {
     padding: 13px 0;
@@ -778,7 +773,7 @@ h6 {
 .price-footer {
     padding: 20px;
 }
-.header.active h3 {
+.header.active .head {
     color: #fff;
     background-color: #03a9f4;
 }
