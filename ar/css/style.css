@@ -477,10 +477,11 @@ h6 {
 .slide-items {
     padding: 50px 40px;
 }
-.slide-items h5 {
+.slide-items .service {
     color: blanchedalmond;
     font-weight: bold;
     text-shadow: #000066 -1px -1px 10px;
+
 }
 .slide-items p {
     margin-bottom: 0;
