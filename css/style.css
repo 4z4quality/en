@@ -747,7 +747,7 @@ h6 {
     background: #f9f9f9;
     box-shadow: 5px 4px 8px 5px #888888;
 }
-.price-box .head {
+.price-box .header h3 {
     padding: 12px 10px;
     margin-bottom: 0;
     position: relative;
@@ -756,12 +756,6 @@ h6 {
     background: #474747;
     color: #fff;
     border-radius: 2px 2px 0 0;
-    font-weight: 700;
-    font-size: 19px;
-}
-.header.active .head{
-    color: #fff;
-    background-color: #03a9f4;
 }
 .price-box .header .price {
     background: #ebebeb;
@@ -773,8 +767,7 @@ h6 {
     font-weight: 700;
 }
 .header .price span {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 13px;
 }
 .price-box ul li {
     padding: 13px 0;
@@ -782,6 +775,10 @@ h6 {
 }
 .price-footer {
     padding: 20px;
+}
+.header.active h3 {
+    color: #fff;
+    background-color: #03a9f4;
 }
 .page-title {
     background-color: #2B8694;
