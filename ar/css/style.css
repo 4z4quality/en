@@ -1,5 +1,5 @@
-::selection {
-    color: #cddc39;
+::selection{
+    color:#cddc39;
 }
 body{
     background: #fff;
@@ -481,7 +481,6 @@ h6 {
     color: blanchedalmond;
     font-weight: bold;
     text-shadow: #000066 -1px -1px 10px;
-
 }
 .slide-items p {
     margin-bottom: 0;
