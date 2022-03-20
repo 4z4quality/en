@@ -321,6 +321,12 @@ h6 {
     -webkit-border-radius: 50%;
     border: 1px solid #03a9f4;
 }
+#services .subtitle-caption {
+    line-height: 40px;
+    font-weight: 700;
+    color: #ff8000;
+    font-size: 18px;
+}
 .team {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -737,6 +743,7 @@ h6 {
     display: block;
     color: rgba(255, 255, 255, 0.7);
     font-size: 12px;
+    font-weight: 800;
 }
 .price-box {
     background: #f9f9f9;
