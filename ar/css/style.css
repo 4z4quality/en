@@ -100,13 +100,25 @@ h6 {
     margin-left: auto;
     margin-right: auto;
 }
+#services h3{
+    font-weight: 700;
+    color:#ff8000;
+    line-height: 40px;
+    text-transform: uppercase;
+}
 .subtitle-caption {
-    font-weight: 600;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 19px;
+    font-weight: 700;
     margin-bottom: 0;
-    line-height: 25px;
+    line-height: 40px;
     text-transform: capitalize;
+}
+.author {
+    font-weight: 800;
+}
+.author a{
+    color: #ff8000;
 }
 .center-title {
     margin-bottom: 40px;
@@ -732,6 +744,7 @@ h6 {
     display: block;
     color: rgba(255, 255, 255, 0.7);
     font-size: 12px;
+    font-weight: 700;
 }
 .price-box {
     background: #f9f9f9;
