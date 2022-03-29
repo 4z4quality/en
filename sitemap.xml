@@ -5,9 +5,48 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!--  created by Dr. Tarek Elsherif  -->
-
+<url>
+  <loc>https://the4z.com/</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://the4z.com/index.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/edu-quality.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/ceo-message.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/iso-standards.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/iso-9001.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/post-single1.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/post-single2.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://the4z.com/post-single3.html</loc>
   <lastmod>2021-10-09T14:22:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -22,11 +61,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://the4z.com/iso-standards.html</loc>
-  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://the4z.com/qms-concepts.html</loc>
   <lastmod>2021-10-09T14:22:39+00:00</lastmod>
   <priority>0.80</priority>
@@ -37,42 +71,22 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://the4z.com/ready-checklist.html</loc>
+  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://the4z.com/strategic-planning.html</loc>
   <lastmod>2021-10-09T14:22:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://the4z.com/iso-9001.html</loc>
-  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://the4z.com/edu-quality.html</loc>
+  <loc>https://the4z.com/ar/</loc>
   <lastmod>2021-10-09T14:22:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://the4z.com/ar/index.html</loc>
-  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://the4z.com/ceo-message.html</loc>
-  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://the4z.com/post-single3.html</loc>
-  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://the4z.com/post-single2.html</loc>
-  <lastmod>2021-10-09T14:22:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://the4z.com/post-single1.html</loc>
   <lastmod>2021-10-09T14:22:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -136,5 +150,9 @@
   <lastmod>2021-10-09T14:39:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+<url>
+  <loc>https://the4z.com/ar/ready-checklist.html</loc>
+  <lastmod>2021-10-09T14:39:54+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 </urlset>
