@@ -478,18 +478,15 @@ h6 {
     font-weight: bold;
 }
 .testimonials .flexslider {
-    background: rgba(0, 0, 0, 0);
-    border: 0;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-.testimonials .flexslider {
     background: rgba(255, 254, 254, 0.205);
     border: 0;
     box-shadow: none;
     -webkit-box-shadow: none;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+#work {
+    background-color: #f7f7f8;
 }
 #work img {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
