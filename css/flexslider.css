@@ -23,7 +23,7 @@
 }
 .flexslider .slides > li {
     display:none;
-    backface-visibility: visible;
+    backface-visibility: hidden;
 }
 .flexslider .slides img{
     width: 100%;
