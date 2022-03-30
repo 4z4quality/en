@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
-Sitemap: http://the4z.com/sitemap.xml
+Sitemap: https://the4z.com/sitemap.xml
