@@ -12,7 +12,7 @@ body{
 }
 p {
     font-weight: 300;
-    font-size: 13px;
+    font-size: 16px;
     color: #000066;
     line-height: 24px;
 }
@@ -23,12 +23,21 @@ p a:hover{
     padding-top: 100px;
     padding-bottom: 40px;
     padding-right: 30px;
-    padding-left: 30px
+    padding-left: 30px;
+    line-height:1.9em;
+    font-size: 16px;
 }
 .section-padding h2{
     color: #000066;
     text-align: right;
-    margin: 0;
+    line-height:1.5em;
+    margin:0
+}
+.section-padding h3{
+    color: #000066; 
+    text-align: right;
+    line-height:1.5em;
+    margin:0
 }
 .divided30 {
     width: 100%;
@@ -46,8 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
     color: #000066;
 }
@@ -75,6 +83,9 @@ h6 {
     margin: 0;
     font-size: 40px;
     margin-bottom: 0;
+}
+.section-title h2 {
+    text-align: center;
 }
 .border-line {
     width: 40px;
@@ -131,7 +142,7 @@ h6 {
         font-weight: 600;
     }
     nav.after-color.navbar-default .navbar-brand {
-        color: #000;
+        color: #000066;
         font-size: 35px;
         font-weight: 400
     }
@@ -299,6 +310,7 @@ h6 {
 .feature-icon-wrap .features-text-right {
     padding-right: 20px;
     overflow: hidden;
+    line-height:1.5em
 }
 .services-icons .right-side-icon i {
     width: 60px;
@@ -783,14 +795,20 @@ h6 {
 }
 .page-title {
     background-color: white;
-    background-image: linear-gradient(to bottom, rgba(0,0,102,0.6), rgba(250,128,0,0.9) 60%);
+    background-image: linear-gradient(to bottom, rgba(0,0,102,0.6), rgba(250,128,0,0.9) 55%);
     padding-top: 300px;
 }
-.page-title h1, h2 {
+.page-title h1 {
     color: #000066;
-    margin: 30px;
     font-weight: 400;
     text-align: center;
+    margin: 20px;
+}
+.page-title h2 {
+    color: #000066;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
 }
 .page-title .border-line {
     background-color: #fff;
@@ -930,14 +948,20 @@ video::-webkit-media-controls-panel {
 table {
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
     border-collapse: collapse;
-    width: 100%;
+    line-height: 1.5em;
 }
 td,
 th {
     border: 1px solid #000000;
-    text-align: center;
     padding: 8px;
+    font-weight: 600;
 }
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+.actions{
+    color: #ff8000;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.9em;
 }

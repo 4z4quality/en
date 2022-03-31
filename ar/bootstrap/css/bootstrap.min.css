@@ -5398,8 +5398,8 @@ nav.after-color {
 .navbar-nav {
     margin-right: 0;
     margin-top: 7.5px;
-    padding-right: 65px;
-    padding-left: 140px;
+    padding-left: 65px;
+    padding-right: 140px;
 }
 
 .navbar-nav>li>a {

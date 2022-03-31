@@ -176,7 +176,7 @@ html[xmlns]
 	height:11px;
 	display:block;
 	background:#000066;
-	background:#000066(0,0,0,.7);
+	background:#000066,(0,0,0,.7);
 	cursor:pointer;
 	text-indent:-9999px;
 	-webkit-border-radius:20px;
@@ -190,11 +190,11 @@ html[xmlns]
 }
 .flex-control-paging li a:hover{
 	background:#ff8000;
-	background:#ff8000(0,0,0,.7);
+	background:#ff8000,(0,0,0,.7);
 }
 .flex-control-paging li a.flex-active{
 	background:#ff8000;
-	background:#ff8000(0,0,0,.7);
+	background:#ff8000,(0,0,0,.7);
 	cursor:default;
 }
 .flex-control-thumbs{
