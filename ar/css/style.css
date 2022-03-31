@@ -25,6 +25,11 @@ p a:hover{
     padding-right: 30px;
     padding-left: 30px
 }
+.section-padding h2{
+    color: #000066;
+    text-align: right;
+    margin: 0;
+}
 .divided30 {
     width: 100%;
     height: 30px;

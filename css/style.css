@@ -25,6 +25,11 @@ p a:hover{
     padding-right: 30px;
     padding-left: 30px
 }
+.section-padding h2{
+    color: #000066;
+    text-align: left;
+    margin: 0;
+}
 .divided30 {
     width: 100%;
     height: 30px;
@@ -247,8 +252,8 @@ h6 {
 .slider-title {
     color: #000066;
     font-weight: 400;
-    text-transform: uppercase;
     font-size: 70px;
+    text-transform: uppercase;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
     padding: 20px;
 }
@@ -782,6 +787,15 @@ h6 {
     background-image: linear-gradient(to top, rgba(0,0,102,0.9) 60%, rgba(250,128,0,0.6));
     padding-top: 300px;
 }
+.page-title h1, h2 {
+    color: #fff;
+    margin: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.page-title .border-line {
+    background-color: #fff;
+}
 .navbar-brand h3 {
   font-weight: 700;
   line-height: 20px;
@@ -794,15 +808,6 @@ h6 {
   margin-left: 5px;
   margin-top:5px;
   margin-bottom:5px;
-}
-.page-title h1, h2 {
-    color: #fff;
-    margin: 30px;
-    font-weight: 400;
-    text-align: center;
-}
-.page-title .border-line {
-    background-color: #fff;
 }
 .news-content p {
     color: #999;
