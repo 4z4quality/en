@@ -236,11 +236,11 @@ th {
     }
 
     a[href]:after {
-        content: " ("attr(href) ")"
+        content: " (attr(href))"
     }
 
     abbr[title]:after {
-        content: " ("attr(title) ")"
+        content: " (attr(title))"
     }
 
     a[href^="javascript:"]:after,
@@ -5983,6 +5983,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     padding-left: 0;
     margin: 20px 0;
     text-align: center;
+    font-weight: 800;
     list-style: none
 }
 
@@ -6001,8 +6002,9 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .pager li>a:focus,
 .pager li>a:hover {
-    text-decoration: none;
-    background-color: #eee
+    color: #fff;
+    text-decoration:none;
+    background-color: #FF8000
 }
 
 .pager .next>a,
