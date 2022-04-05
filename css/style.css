@@ -817,15 +817,12 @@ h6 {
 .navbar-brand h3 {
   font-weight: 700;
   line-height: 20px;
-  font-size: 29px;
+  font-size: 30px;
   margin: 0;
 }
 .navbar-header img {
   float: left;
-  margin-right: 0px;
-  margin-left: 5px;
-  margin-top:5px;
-  margin-bottom:5px;
+  margin: 5px;
 }
 .news-content p {
     color: #999;

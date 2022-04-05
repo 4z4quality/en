@@ -821,9 +821,8 @@ h6 {
 }
 .navbar-header img {
     float: right;
-    margin-left: 15px;
-    margin-top:5px;
-    margin-bottom:5px;
+    margin: 5px;
+    margin-left: 20px;
 }
 .news-content p {
     color: #999;
