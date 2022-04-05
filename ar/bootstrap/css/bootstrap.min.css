@@ -5344,7 +5344,7 @@ nav.after-color {
 .navbar-brand {
     float: right;
     height: 50px;
-    padding: 20px 10px;
+    padding: 20px 0px;
     font-size: 18px;
     line-height: 20px
 }
