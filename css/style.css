@@ -950,7 +950,7 @@ table {
     table-layout: fixed;
 }
 tr:hover {
-    background-color: rgba(255, 127, 80, 0.208);
+    background-color: rgba(98, 80, 255, 0.208);
 }
 td,
 th {
