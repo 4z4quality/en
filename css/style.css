@@ -948,9 +948,10 @@ table {
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
     border-collapse: collapse;
     table-layout: fixed;
+    width: 100%;
 }
 tr:hover {
-    background-color: coral;}
+    background-color: rgba(255, 127, 80, 0.495);}
 td,
 th {
     border: 1px solid #000000;
