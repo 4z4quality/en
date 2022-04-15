@@ -951,7 +951,8 @@ table {
     width: 100%;
 }
 tr:hover {
-    background-color: rgba(255, 127, 80, 0.208);}
+    background-color: rgba(86, 80, 255, 0.208);
+}
 td,
 th {
     border: 1px solid #000000;
