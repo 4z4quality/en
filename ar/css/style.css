@@ -139,12 +139,12 @@ h6 {
     nav.before-color.navbar-default .navbar-brand {
         color: #000066;
         font-size: 35px;
-        font-weight: 600;
+        font-weight: 600
     }
     nav.after-color.navbar-default .navbar-brand {
         color: #000066;
         font-size: 35px;
-        font-weight: 400
+        font-weight: 600
     }
     nav.before-color .navbar-nav>li>a {
         color: #000066;
@@ -815,7 +815,7 @@ h6 {
 }
 .navbar-brand h3 {
     font-weight: 700;
-    line-height: 30px;
+    line-height: 25px;
     font-size: 27px;
     margin: 0;
 }
