@@ -10,7 +10,7 @@ var revapi;
 jQuery(document).ready(function() {
     revapi = jQuery('.tp-banner').revolution(
             {
-                delay: 6000,
+                delay: 5000,
                 startwidth: 1170,
                 startheight: 450,
                 hideThumbs: 10,
