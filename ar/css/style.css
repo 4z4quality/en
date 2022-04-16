@@ -182,7 +182,6 @@ h6 {
     color: #000066;
     font-weight: 700;
     font-size: 15px;
-    text-transform: uppercase;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -275,7 +274,6 @@ h6 {
     font-size: 40px;
     font-weight: 600;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
-    margin: 60px;
 }
 .slider-button a.btn-white {
     color: #ff8000;
