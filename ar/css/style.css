@@ -263,7 +263,7 @@ h6 {
 .slider-title {
     color: #000066;
     font-weight: 400;
-    font-size: 74px;
+    font-size: 70px;
     font-family: 'Almarai', "Montserrat", 'sans-serif', 'serif';
     padding: 20px;
 }
@@ -583,11 +583,11 @@ h6 {
     color: #333;
     text-transform: uppercase;
     font-size: 15px;
+    text-align: left;
 }
 .overlayinfo h6 {
     font-size: 13px;
     text-transform: uppercase;
-    letter-spacing: .1em
 }
 .news-wrapper {
     padding: 0;

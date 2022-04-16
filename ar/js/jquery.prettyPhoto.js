@@ -5,7 +5,7 @@
 			hook: 'data-gal',
 			animation_speed: 'fast',
 			ajaxcallback: function() {},
-			slideshow: 5000,
+			slideshow: 8000,
 			autoplay_slideshow: true,
 			opacity: 0.80,
 			show_title: true,
@@ -48,11 +48,11 @@
 										<div id="pp_full_res"></div> \
 										<div class="pp_details"> \
 											<div class="pp_nav"> \
-												<a href="#" class="pp_arrow_previous">Previous</a> \
+												<a href="#" class="pp_arrow_next">Previous</a> \
 												<p class="currentTextHolder">0/0</p> \
-												<a href="#" class="pp_arrow_next">Next</a> \
+												<a href="#" class="pp_arrow_previous">Next</a> \
 											</div> \
-											<p class="pp_description"></p> \
+											<p class="pp_description""></p> \
 											<div class="pp_social">{pp_social}</div> \
 											<a class="pp_close" href="#">Close</a> \
 										</div> \
@@ -69,13 +69,13 @@
 					</div> \
 					<div class="pp_overlay"></div>',
 			gallery_markup: '<div class="pp_gallery"> \
-								<a href="#" class="pp_arrow_previous">Previous</a> \
+								<a href="#" class="pp_arrow_next">Previous</a> \
 								<div> \
 									<ul> \
 										{gallery} \
 									</ul> \
 								</div> \
-								<a href="#" class="pp_arrow_next">Next</a> \
+								<a href="#" class="pp_arrow_previous">Next</a> \
 							</div>',
 			image_markup: '<img id="fullResImage" src="{path}" />',
 			flash_markup: '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="{width}" height="{height}"><param name="wmode" value="{wmode}" /><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="{path}" /><embed src="{path}" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="{width}" height="{height}" wmode="{wmode}"></embed></object>',
@@ -83,7 +83,6 @@
 			iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
 			inline_markup: '<div class="pp_inline">{content}</div>',
 			custom_markup: '',
-			social_tools: '<div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href={location_href}&amp;layout=button_count&amp;show_faces=true&amp;width=500&amp;action=like&amp;font&amp;colorscheme=light&amp;height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div>' /* html or false to disable */
 		}, pp_settings);
 		var matchedObjects = this, percentBased = false, pp_dimensions, pp_open,
 		pp_contentHeight, pp_contentWidth, pp_containerHeight, pp_containerWidth,
@@ -406,10 +405,10 @@
 				resized = true, fitting = false;
 				while (!fitting){
 					if((pp_containerWidth > windowWidth)){
-						imageWidth = (windowWidth - 200);
+						imageWidth = (windowWidth - 100);
 						imageHeight = (height/width) * imageWidth;
 					}else if((pp_containerHeight > windowHeight)){
-						imageHeight = (windowHeight - 200);
+						imageHeight = (windowHeight - 100);
 						imageWidth = (width/height) * imageHeight;
 					}else{
 						fitting = true;

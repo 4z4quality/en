@@ -1,4 +1,3 @@
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -1806,7 +1805,7 @@ ul ul {
 
 .list-unstyled {
     padding-left: 0;
-    list-style: none
+    list-style: none;
 }
 
 .list-inline {
@@ -5362,7 +5361,7 @@ nav.after-color {
 
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px
+        margin-left: 0px
     }
 }
 

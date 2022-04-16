@@ -5,7 +5,7 @@
 			hook: 'data-gal',
 			animation_speed: 'fast',
 			ajaxcallback: function() {},
-			slideshow: 5000,
+			slideshow: 8000,
 			autoplay_slideshow: false,
 			opacity: 0.80,
 			show_title: true,
@@ -83,7 +83,6 @@
 			iframe_markup: '<iframe src ="{path}" width="{width}" height="{height}" frameborder="no"></iframe>',
 			inline_markup: '<div class="pp_inline">{content}</div>',
 			custom_markup: '',
-			social_tools: '<div class="twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div><div class="facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href={location_href}&amp;layout=button_count&amp;show_faces=true&amp;width=500&amp;action=like&amp;font&amp;colorscheme=light&amp;height=23" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:500px; height:23px;" allowTransparency="true"></iframe></div>' /* html or false to disable */
 		}, pp_settings);
 		var matchedObjects = this, percentBased = false, pp_dimensions, pp_open,
 		pp_contentHeight, pp_contentWidth, pp_containerHeight, pp_containerWidth,
@@ -404,10 +403,10 @@
 				resized = true, fitting = false;
 				while (!fitting){
 					if((pp_containerWidth > windowWidth)){
-						imageWidth = (windowWidth - 200);
+						imageWidth = (windowWidth - 100);
 						imageHeight = (height/width) * imageWidth;
 					}else if((pp_containerHeight > windowHeight)){
-						imageHeight = (windowHeight - 200);
+						imageHeight = (windowHeight - 100);
 						imageWidth = (width/height) * imageHeight;
 					}else{
 						fitting = true;
