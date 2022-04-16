@@ -813,7 +813,7 @@ h6 {
   font-weight: 700;
   line-height: 10px;
   font-size: 25px;
-  margin-top: 20px;
+  margin: 0;
 }
 .navbar-header img {
   float: left;
