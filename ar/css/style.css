@@ -965,3 +965,34 @@ tr:nth-child(even) {
     font-size: 22px;
     line-height: 1.9em;
 }
+.callout {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 260px;
+  }
+  .callout-header {
+    padding: 25px 15px;
+    background: rgb(0, 73, 109);
+    -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
+    font-size: 30px;
+    color: white;
+  }
+  .callout-container {
+    padding: 15px;
+    -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222);
+    background-color: #eeff00;
+    color: black
+  }
+  .closebtn {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .closebtn:hover {
+    color: #eeff00;
+  }
