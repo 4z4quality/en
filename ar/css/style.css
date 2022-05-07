@@ -967,6 +967,7 @@ tr:nth-child(even) {
 }
 .callout {
     position: fixed;
+    
     bottom: 35px;
     right: 20px;
     margin-left: 20px;
