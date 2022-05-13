@@ -985,8 +985,8 @@ tr:nth-child(even) {
   }
   .closebtn {
     position: absolute;
-    top: 1px;
-    right: 15px;
+    top: -5px;
+    right: 10px;
     color: white;
     font-size: 30px;
     cursor: pointer;
