@@ -1001,3 +1001,56 @@ tr:nth-child(even) {
   .closebtn:hover {
     color: #ff8000;
   }
+  .training
+  {
+    position: relative;
+    white-space: nowrap;
+    animation: floatText 10s infinite alternate ease-in-out;
+}
+@keyframes floatText
+{
+  from {
+    left: -40%;
+  }
+  to {
+    /* left: auto; */
+    left: 40%;
+  }
+}
+.training2
+  {
+    animation: colorchange 30s infinite alternate ease-in-out;
+}
+@keyframes colorchange
+{
+    0% {
+        color: #000066;
+      }
+      10% {
+        color: #8e44ad;
+      }
+      20% {
+        color: #1abc9c;
+      }
+      30% {
+        color: #ff8000;
+      }
+      50% {
+        color: blue;
+      }
+      60% {
+        color: rgb(255, 221, 0);
+      }
+      70% {
+        color: #2980b9;
+      }
+      80% {
+        color: #f1c40f;
+      }
+      90% {
+        color: #2980b9;
+      }
+      100% {
+        color: pink;
+      }
+    }
