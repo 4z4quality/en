@@ -344,7 +344,12 @@ h6 {
     position: relative;
 }
 .team-box img {
-    width: 100%;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    -webkit-filter: drop-shadow(0px 5px 5px #222); filter: drop-shadow(0px 5px 5px #222)
 }
 .team-desc h4 {
     margin-bottom: 0;
