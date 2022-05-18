@@ -19,6 +19,9 @@ p {
 p a:hover{
     color: #ff8000;
 }
+a:hover {
+    color: #ff8000;
+}
 .section-padding {
     padding-top: 100px;
     padding-bottom: 40px;
